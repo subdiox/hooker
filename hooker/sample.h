@@ -1,14 +1,14 @@
 //
-//  hooker.h
+//  sample.h
 //  hooker
 //
 //  Created by subdiox on 2018/11/16.
 //  Copyright © 2018 subdiox. All rights reserved.
 //
 
-@protocol Hook <NSObject>
-@required
+#import <Foundation/Foundation.h>
+#import "hooker.h"
 
-+ (NSArray <NSString *> *)targetClasses;
+@interface Sample : NSObject<Hook>
 
 @end

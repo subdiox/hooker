@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C7169B1219DFA69001EA36B /* hooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7169B0219DFA69001EA36B /* hooker.h */; };
-		4C7169B3219DFA69001EA36B /* hooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7169B2219DFA69001EA36B /* hooker.m */; };
+		4C7169B1219DFA69001EA36B /* sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7169B0219DFA69001EA36B /* sample.h */; };
+		4C7169B3219DFA69001EA36B /* sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7169B2219DFA69001EA36B /* sample.m */; };
+		4C7169BB219DFA7B001EA36B /* hooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7169B9219DFA7A001EA36B /* hooker.m */; };
+		4C7169BE219E0822001EA36B /* hooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7169BD219E0822001EA36B /* hooker.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C7169AD219DFA69001EA36B /* libhooker.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libhooker.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C7169B0219DFA69001EA36B /* hooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hooker.h; sourceTree = "<group>"; };
-		4C7169B2219DFA69001EA36B /* hooker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hooker.m; sourceTree = "<group>"; };
+		4C7169B0219DFA69001EA36B /* sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
+		4C7169B2219DFA69001EA36B /* sample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample.m; sourceTree = "<group>"; };
+		4C7169B9219DFA7A001EA36B /* hooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hooker.m; sourceTree = "<group>"; };
+		4C7169BD219E0822001EA36B /* hooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hooker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +51,10 @@
 		4C7169AF219DFA69001EA36B /* hooker */ = {
 			isa = PBXGroup;
 			children = (
-				4C7169B0219DFA69001EA36B /* hooker.h */,
-				4C7169B2219DFA69001EA36B /* hooker.m */,
+				4C7169B0219DFA69001EA36B /* sample.h */,
+				4C7169B2219DFA69001EA36B /* sample.m */,
+				4C7169BD219E0822001EA36B /* hooker.h */,
+				4C7169B9219DFA7A001EA36B /* hooker.m */,
 			);
 			path = hooker;
 			sourceTree = "<group>";
@@ -60,7 +66,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7169B1219DFA69001EA36B /* hooker.h in Headers */,
+				4C7169BE219E0822001EA36B /* hooker.h in Headers */,
+				4C7169B1219DFA69001EA36B /* sample.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7169B3219DFA69001EA36B /* hooker.m in Sources */,
+				4C7169BB219DFA7B001EA36B /* hooker.m in Sources */,
+				4C7169B3219DFA69001EA36B /* sample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
