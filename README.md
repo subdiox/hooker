@@ -3,6 +3,10 @@ Function hooker (injector) for macOS
 
 # Hooking
 ```objective-c
+@interface Sample : NSObject<Hook>
+@end
+
+@implementation Sample
 + (NSArray)targetClasses {
     return @[@"SampleClass"];
 }
@@ -20,6 +24,7 @@ Function hooker (injector) for macOS
 
 - (void)orig_sampleMethod1 {}
 + (NSInteger)orig_sampleMethod2 {}
+@end
 ```
 
 # How to use after build
