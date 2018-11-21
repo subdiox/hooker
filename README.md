@@ -3,6 +3,8 @@ Function hooker (injector) for macOS
 
 # Hooking
 ```objective-c
+#import "hooker.h"
+
 @interface Sample : NSObject<Hook>
 @end
 
