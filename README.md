@@ -30,4 +30,6 @@ Function hooker (injector) for macOS
 ```
 
 # How to use after build
-DYLD_INSERT_LIBRARIES=(path to dylib file) (executable file)
+```console
+$ DYLD_INSERT_LIBRARIES=(path to dylib file) (executable file)
+```
