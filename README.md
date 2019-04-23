@@ -1,6 +1,9 @@
 # hooker
 Function hooker (injector) for macOS
 
+# Installation
+Just add `hooker.h` and `hooker.m` to your Xcode project.
+
 # Hooking
 ```objective-c
 #import "hooker.h"
