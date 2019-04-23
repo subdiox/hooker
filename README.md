@@ -28,7 +28,7 @@ Just add `hooker.h` and `hooker.m` to your Xcode project.
 }
 
 - (void)orig_sampleMethod1 {}
-+ (id)orig_sampleMethod2 {}
++ (id)orig_sampleMethod2 { return nil }
 @end
 ```
 
