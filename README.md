@@ -1,10 +1,10 @@
 # hooker
 Function hooker (injector) for macOS
 
-# Installation
+## Installation
 Just add `hooker.h` and `hooker.m` to your Xcode project.
 
-# Hooking
+## Hooking
 ```objective-c
 #import "hooker.h"
 
@@ -32,7 +32,7 @@ Just add `hooker.h` and `hooker.m` to your Xcode project.
 @end
 ```
 
-# How to use after build
+## How to use after build
 ```console
 $ DYLD_INSERT_LIBRARIES=(path to dylib file) (executable file)
 ```
