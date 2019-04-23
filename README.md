@@ -22,13 +22,13 @@ Just add `hooker.h` and `hooker.m` to your Xcode project.
     // do whatever you want
 }
 
-+ (NSInteger)hook_sampleMethod2 {
++ (id)hook_sampleMethod2 {
     NSLog(@"class method 'sampleMethod2' is hooked!");
     return [self orig_sampleMethod2];
 }
 
 - (void)orig_sampleMethod1 {}
-+ (NSInteger)orig_sampleMethod2 {}
++ (id)orig_sampleMethod2 {}
 @end
 ```
 
